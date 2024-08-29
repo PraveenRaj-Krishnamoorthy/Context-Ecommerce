@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../public/images/wp7001163-shops-wallpapers.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    border-right: 2px solid;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: transparent;
+
+        tr {
+            td {
+                padding: 4.8%;
+                border-bottom: 2px solid;
+
+                button {
+                    width: 100%;
+                    padding: 10%;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    font-size: large;
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    background-color: seashell;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(5px);
+    color: white;
+
+    .input {
+        width: 20%;
+        height: 50%;
+
+        input[type="text"] {
+            border: none;
+            outline: none;
+            width: fit-content;
+            height: 100%;
+            font-size: larger;
+            transition: 0.3s;
+            border-radius: 5px;
+
+        }
+
+        input[type="text"]:focus {
+            box-shadow: 0px 0px 10px white;
+            transition: 0.3s;
+        }
+    }
+
+    .check {
+        font-size: larger;
+
+        input[type="checkbox"] {
+            transform: scale(1.5);
+        }
+    }
+
+    .checkout-btn {
+        button {
+            border: none;
+            outline: none;
+            font-size: large;
+            width: fit-content;
+            padding: 10%;
+            background: linear-gradient(skyblue, white);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: linear-gradient(white, skyblue);
+            transition: 0.3s;
+            scale: 1.1;
+            box-shadow: 0px 0px 5px greenyellow;
+        }
+    }
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    width: 85%;
+    height: 90%;
+    border-top: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    scrollbar-width: none;
+
+
+    .show {
+        width: 30%;
+        height: 50%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: x-large;
+        backdrop-filter: blur(10px);
+        transition: 0.2s;
+        display: flex;
+        flex-direction: column;
+        color: aquamarine;
+
+        img {
+            width: 100%;
+            height: 50%;
+        }
+
+        .data {
+            width: 100%;
+            height: 50%;
+            backdrop-filter: blur(1px);
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
+            h5 {
+                width: 20%;
+                display: flex;
+            }
+
+            button {
+                font-size: xx-large;
+                cursor: pointer;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+            }
+
+            button:hover {
+                transition: 0.2s;
+                scale: 1.1;
+                color: aliceblue;
+                /* background-color: chocolate; */
+            }
+
+            .plus,
+            .minus {
+                width: 100%;
+            }
+
+            .plus:hover {
+                background: green;
+            }
+
+            .minus:hover {
+                background-color: red;
+            }
+        }
+    }
+}
+
+.show:hover {
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+.checkout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+    table {
+        width: 50%;
+        height: 50%;
+        border-collapse: collapse;
+
+        thead {
+            tr {
+                th {
+                    border: 2px solid salmon;
+                    padding: 2%;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    border: 2px solid;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

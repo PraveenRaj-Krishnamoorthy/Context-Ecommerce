@@ -1,0 +1,56 @@
+{
+    "Vintage": [
+        {
+            "id": 1,
+            "name": "Circle-Pocket",
+            "color": "Wodden",
+            "price": 50,
+            "count": 0,
+            "img": "/images/watch/time-5389154.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Chain-Pocket",
+            "color": "Gold",
+            "price": 100,
+            "count": 0,
+            "img": "/images/watch/watches-1212557.jpg"
+        }
+    ],
+    "Titan": [
+        {
+            "id": 3,
+            "name": "Titan",
+            "color": "Black",
+            "price": 150,
+            "count": 0,
+            "img": "/images/watch/titan-1.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Fastrack",
+            "color": "Silver",
+            "price": 200,
+            "count": 0,
+            "img": "/images/watch/titan-2.jpg"
+        }
+    ],
+    "Casio": [
+        {
+            "id": 5,
+            "name": "Edifice",
+            "color": "silver",
+            "price": 250,
+            "count": 0,
+            "img": "/images/watch/casio-1.jpg"
+        },
+        {
+            "id": 6,
+            "name": "G-Shock",
+            "color": "Gold-Black",
+            "price": 300,
+            "count": 0,
+            "img": "/images/watch/casio-2.jpg"
+        }
+    ]
+}
