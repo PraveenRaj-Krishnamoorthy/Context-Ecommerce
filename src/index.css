@@ -141,7 +141,7 @@ body {
         transition: 0.2s;
         display: flex;
         flex-direction: column;
-        color: aquamarine;
+        color: white;
 
         img {
             width: 100%;
